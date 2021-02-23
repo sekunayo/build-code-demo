@@ -293,8 +293,8 @@ button {
 .first-main-inner-body {
     @media only screen and (max-width: 575.98px) {
         & {
-            width: 80%;
-            @include grid(grid, 25vh 43vh 22vh 40vh, null);
+            width: 90%;
+            @include grid(grid, 25vh 63vh 20vh 40vh, null);
         }
     }
 
@@ -414,11 +414,11 @@ button {
 
     & p {
         color: #4a4a4a;
-        width: 60%;
 
         @media only screen and (max-width: 575.98px) {
             & {
                 @include font-style($Roboto, 1rem, normal, 500, -2%, null, 43.39px);
+                width: 100%;
             }
         }
 
@@ -447,6 +447,8 @@ button {
         @media only screen and (min-width: 1200px) {
             & {
                 @include font-style($Roboto, 1.69rem, normal, 500, -2%, null, 43.39px);
+                width: 60%;
+
             }
         }
     }
@@ -461,7 +463,7 @@ button {
 
     @media only screen and (max-width: 575.98px) {
         & {
-            @include grid(grid, 12vh 12vh, null);
+            @include grid(grid, 12vh 18vh, null);
             grid-row-gap: 20px;
         }
     }
@@ -496,9 +498,41 @@ button {
     }
 
     & p {
-        width: 75%;
         @include font-style($Roboto, 1.19rem, normal, 500, 0.02em, left, 30.86px);
         @include flex(flex, row, center, null);
+        @media only screen and (max-width: 575.98px) {
+            & {
+                width: 100%;
+            }
+        }
+    
+        /* Small devices (landscape phones, 576px and up) */
+        @media only screen and (min-width: 576px) and (max-width: 767.98px) {
+            & {
+                width: 75%;
+            }
+        }
+    
+        /* // Medium devices (tablets, 768px and up) */
+        @media only screen and (min-width: 768px) and (max-width: 991.98px) {
+            & {
+                width: 75%;
+            }
+        }
+    
+        /* Large devices (desktops, 992px and up) */
+        @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+            & {
+                @include grid(grid, 10vh 10vh, null);
+            }
+        }
+    
+        /* // Extra large devices (large desktops, 1200px and up) */
+        @media only screen and (min-width: 1200px) {
+            & {
+                width: 75%;
+            }
+        }
     }
 
     & button {

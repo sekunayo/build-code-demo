@@ -345,9 +345,9 @@ button, .nav-link-container button {
 
 @media only screen and (max-width: 575.98px) {
   .first-main-inner-body {
-    width: 80%;
+    width: 90%;
     display: grid;
-    grid-template-rows: 25vh 43vh 22vh 40vh;
+    grid-template-rows: 25vh 63vh 20vh 40vh;
   }
 }
 
@@ -493,7 +493,6 @@ button, .nav-link-container button {
 
 .first-semi-text p {
   color: #4a4a4a;
-  width: 60%;
   /* Small devices (landscape phones, 576px and up) */
   /* // Medium devices (tablets, 768px and up) */
   /* Large devices (desktops, 992px and up) */
@@ -508,6 +507,7 @@ button, .nav-link-container button {
     font-weight: 500;
     letter-spacing: -2%;
     line-height: 43.39px;
+    width: 100%;
   }
 }
 
@@ -552,6 +552,7 @@ button, .nav-link-container button {
     font-weight: 500;
     letter-spacing: -2%;
     line-height: 43.39px;
+    width: 60%;
   }
 }
 
@@ -572,7 +573,7 @@ button, .nav-link-container button {
 @media only screen and (max-width: 575.98px) {
   .button-inner-container {
     display: grid;
-    grid-template-rows: 12vh 12vh;
+    grid-template-rows: 12vh 18vh;
     grid-row-gap: 20px;
   }
 }
@@ -607,7 +608,6 @@ button, .nav-link-container button {
 }
 
 .button-inner-container p {
-  width: 75%;
   font-family: "Roboto Mono", sans-serif;
   font-size: 1.19rem;
   font-style: normal;
@@ -618,6 +618,41 @@ button, .nav-link-container button {
   display: flex;
   flex-direction: row;
   align-items: center;
+  /* Small devices (landscape phones, 576px and up) */
+  /* // Medium devices (tablets, 768px and up) */
+  /* Large devices (desktops, 992px and up) */
+  /* // Extra large devices (large desktops, 1200px and up) */
+}
+
+@media only screen and (max-width: 575.98px) {
+  .button-inner-container p {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .button-inner-container p {
+    width: 75%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .button-inner-container p {
+    width: 75%;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .button-inner-container p {
+    display: grid;
+    grid-template-rows: 10vh 10vh;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .button-inner-container p {
+    width: 75%;
+  }
 }
 
 .button-inner-container button {
