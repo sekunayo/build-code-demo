@@ -841,7 +841,7 @@ button, .nav-link-container button {
 @media only screen and (max-width: 575.98px) {
   .benefits-container {
     display: grid;
-    grid-template-rows: 20vh 30vh 350vh;
+    grid-template-rows: 20vh 30vh 220vh;
     grid-template-columns: 1fr;
     align-items: center;
     justify-content: center;
@@ -850,7 +850,7 @@ button, .nav-link-container button {
 
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
   .benefits-container {
-    display: grid;
+    display: griOd;
     grid-template-rows: 20vh 20vh 160vh;
     grid-template-columns: 1fr;
     align-items: center;
@@ -1032,22 +1032,130 @@ button, .nav-link-container button {
 
 .benefit-sub-text {
   text-transform: uppercase;
-  font-family: "Roboto Mono", sans-serif;
-  font-size: 1.13rem;
-  font-weight: 400;
-  letter-spacing: 0.04em;
-  text-align: left;
-  line-height: 23px;
+  color: #DCDCDC;
+  /* Small devices (landscape phones, 576px and up) */
+  /* // Medium devices (tablets, 768px and up) */
+  /* Large devices (desktops, 992px and up) */
+  /* // Extra large devices (large desktops, 1200px and up) */
+}
+
+@media only screen and (max-width: 575.98px) {
+  .benefit-sub-text {
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 0.72rem;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-align: left;
+    line-height: 15px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .benefit-sub-text {
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 1.13rem;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-align: left;
+    line-height: 23px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .benefit-sub-text {
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 1.13rem;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-align: left;
+    line-height: 23px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .benefit-sub-text {
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 1.13rem;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-align: left;
+    line-height: 23px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .benefit-sub-text {
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 1.13rem;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-align: left;
+    line-height: 23px;
+  }
 }
 
 .benefit-sub-text-body {
   width: 100%;
-  font-family: "Roboto Mono", sans-serif;
-  font-size: 3.31rem;
-  font-weight: 500;
-  letter-spacing: -0.01em;
-  text-align: left;
-  line-height: 70px;
+  color: #F4F4F4;
+  /* Small devices (landscape phones, 576px and up) */
+  /* // Medium devices (tablets, 768px and up) */
+  /* Large devices (desktops, 992px and up) */
+  /* // Extra large devices (large desktops, 1200px and up) */
+}
+
+@media only screen and (max-width: 575.98px) {
+  .benefit-sub-text-body {
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 1.94rem;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    text-align: left;
+    line-height: 40px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .benefit-sub-text-body {
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 3.31rem;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    text-align: left;
+    line-height: 70px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .benefit-sub-text-body {
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 3.31rem;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    text-align: left;
+    line-height: 70px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .benefit-sub-text-body {
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 3.31rem;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    text-align: left;
+    line-height: 70px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .benefit-sub-text-body {
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 3.31rem;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    text-align: left;
+    line-height: 70px;
+  }
 }
 
 .benefits-list-container {
@@ -1061,7 +1169,7 @@ button, .nav-link-container button {
 
 @media only screen and (max-width: 575.98px) {
   .benefits-list-container {
-    height: 250vh;
+    height: 220vh;
   }
 }
 
@@ -1090,7 +1198,6 @@ button, .nav-link-container button {
 }
 
 .benefits-inner-list-container {
-  width: 88%;
   /* Small devices (landscape phones, 576px and up) */
   /* // Medium devices (tablets, 768px and up) */
   /* Large devices (desktops, 992px and up) */
@@ -1099,11 +1206,12 @@ button, .nav-link-container button {
 
 @media only screen and (max-width: 575.98px) {
   .benefits-inner-list-container {
+    width: 100%;
     display: grid;
-    grid-template-rows: 90vh 90vh 90vh;
+    grid-template-rows: 58vh 58vh 58vh;
     grid-template-columns: 80px 1fr;
     align-items: center;
-    grid-row-gap: 22vh;
+    grid-row-gap: 15vh;
   }
 }
 
@@ -1121,6 +1229,7 @@ button, .nav-link-container button {
 
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
   .benefits-inner-list-container {
+    width: 88%;
     display: none;
   }
 }
@@ -1364,6 +1473,132 @@ button, .nav-link-container button {
   display: flex;
   justify-self: center;
   align-self: center;
+}
+
+.box-1 {
+  /* Small devices (landscape phones, 576px and up) */
+  /* // Medium devices (tablets, 768px and up) */
+  /* Large devices (desktops, 992px and up) */
+  /* // Extra large devices (large desktops, 1200px and up) */
+}
+
+@media only screen and (max-width: 575.98px) {
+  .box-1 {
+    width: 168px;
+    height: 145px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .box-1 {
+    width: 292px;
+    height: 252px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .box-1 {
+    width: 292px;
+    height: 252px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .box-1 {
+    width: 292px;
+    height: 252px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .box-1 {
+    width: 292px;
+    height: 252px;
+  }
+}
+
+.box-3 {
+  /* Small devices (landscape phones, 576px and up) */
+  /* // Medium devices (tablets, 768px and up) */
+  /* Large devices (desktops, 992px and up) */
+  /* // Extra large devices (large desktops, 1200px and up) */
+}
+
+@media only screen and (max-width: 575.98px) {
+  .box-3 {
+    width: 163px;
+    height: 140px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .box-3 {
+    width: 292px;
+    height: 252px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .box-3 {
+    width: 292px;
+    height: 268px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .box-3 {
+    width: 292px;
+    height: 268px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .box-3 {
+    width: 292px;
+    height: 268px;
+  }
+}
+
+.box-1 {
+  /* Small devices (landscape phones, 576px and up) */
+  /* // Medium devices (tablets, 768px and up) */
+  /* Large devices (desktops, 992px and up) */
+  /* // Extra large devices (large desktops, 1200px and up) */
+}
+
+@media only screen and (max-width: 575.98px) {
+  .box-1 {
+    width: 168px;
+    height: 145px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .box-1 {
+    width: 292px;
+    height: 252px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .box-1 {
+    width: 292px;
+    height: 252px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .box-1 {
+    width: 292px;
+    height: 252px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .box-1 {
+    width: 292px;
+    height: 252px;
+  }
 }
 
 .services-container {
