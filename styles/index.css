@@ -841,7 +841,7 @@ button, .nav-link-container button {
 @media only screen and (max-width: 575.98px) {
   .benefits-container {
     display: grid;
-    grid-template-rows: 20vh 40vh 350vh;
+    grid-template-rows: 20vh 30vh 350vh;
     grid-template-columns: 1fr;
     align-items: center;
     justify-content: center;
@@ -945,7 +945,7 @@ button, .nav-link-container button {
   .companies-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 20vh 20vh;
+    grid-template-rows: 15vh 15vh;
   }
 }
 
@@ -1150,10 +1150,10 @@ button, .nav-link-container button {
   text-transform: uppercase;
   font-family: "Roboto Mono", sans-serif;
   font-size: 0.83rem;
-  font-weight: 500;
-  letter-spacing: 0.18em;
+  font-weight: 400;
+  letter-spacing: 0.5em;
   text-align: center;
-  line-height: 22.1px;
+  line-height: 24px;
   /* Small devices (landscape phones, 576px and up) */
   /* // Medium devices (tablets, 768px and up) */
   /* Large devices (desktops, 992px and up) */
@@ -1274,6 +1274,96 @@ button, .nav-link-container button {
     grid-row: 1/1;
     grid-column: 2/2;
   }
+}
+
+.primary {
+  /* Small devices (landscape phones, 576px and up) */
+  /* // Medium devices (tablets, 768px and up) */
+  /* Large devices (desktops, 992px and up) */
+  /* // Extra large devices (large desktops, 1200px and up) */
+}
+
+@media only screen and (max-width: 575.98px) {
+  .primary {
+    width: 110px;
+    height: 24px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .primary {
+    width: 187px;
+    height: 41px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .primary {
+    width: 187px;
+    height: 41px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .primary {
+    width: 187px;
+    height: 41px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .primary {
+    width: 187px;
+    height: 41px;
+  }
+}
+
+.smarg {
+  /* Small devices (landscape phones, 576px and up) */
+  /* // Medium devices (tablets, 768px and up) */
+  /* Large devices (desktops, 992px and up) */
+  /* // Extra large devices (large desktops, 1200px and up) */
+}
+
+@media only screen and (max-width: 575.98px) {
+  .smarg {
+    width: 91px;
+    height: 22px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .smarg {
+    width: 187px;
+    height: 41px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .smarg {
+    width: 187px;
+    height: 41px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .smarg {
+    width: 187px;
+    height: 41px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .smarg {
+    width: 156px;
+    height: 38px;
+  }
+}
+
+.company {
+  display: flex;
+  justify-self: center;
+  align-self: center;
 }
 
 .services-container {
