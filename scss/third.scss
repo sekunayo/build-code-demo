@@ -4,9 +4,41 @@
 .services-container {
     display: flex;
     align-items: center;
-    width: 84%;
     justify-self: center;
     align-self: center;
+    @media only screen and (max-width: 575.98px) {
+        & {
+            width: 84%;
+        }
+    }
+
+    /* Small devices (landscape phones, 576px and up) */
+    @media only screen and (min-width: 576px) and (max-width: 767.98px) {
+        & {
+            width: 84%;
+        }
+    }
+
+    /* // Medium devices (tablets, 768px and up) */
+    @media only screen and (min-width: 768px) and (max-width: 991.98px) {
+        & {
+            width: 84%;
+        }
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+        & {
+            width: 84%;
+        }
+    }
+
+    /* // Extra large devices (large desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+        & {
+            width: 75%;
+        }
+    }
 
 }
 

@@ -1,10 +1,41 @@
 .stack-container {
     display: flex;
     align-items: center;
-    width: 75%;
     justify-self: center;
     align-self: center;
+    @media only screen and (max-width: 575.98px) {
+        & {
+            width: 84%;
+        }
+    }
 
+    /* Small devices (landscape phones, 576px and up) */
+    @media only screen and (min-width: 576px) and (max-width: 767.98px) {
+        & {
+            width: 84%;
+        }
+    }
+
+    /* // Medium devices (tablets, 768px and up) */
+    @media only screen and (min-width: 768px) and (max-width: 991.98px) {
+        & {
+            width: 84%;
+        }
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+        & {
+            width: 84%;
+        }
+    }
+
+    /* // Extra large devices (large desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+        & {
+            width: 75%;
+        }
+    }
 }
 
 .stack-inner-container {
@@ -13,7 +44,7 @@
 
     @media only screen and (max-width: 575.98px) {
         & {
-            grid-template-rows: 40vh 150vh;
+            grid-template-rows: 32vh 150vh;
         }
     }
 
@@ -51,7 +82,7 @@
 
     @media only screen and (max-width: 575.98px) {
         & {
-            grid-template-rows: 10vh 24vh;
+            grid-template-rows: 8vh 18vh;
             width: 100%;
         }
     }
@@ -89,31 +120,67 @@
     }
 
     & .sub-title {
-        font-family: "Roboto Mono";
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 23px;
-        letter-spacing: 0.04em;
-        text-align: left;
         color: #DCDCDC;
         text-transform: uppercase;
+        @media only screen and (max-width: 575.98px) {
+            & {
+                font-family: "Roboto Mono";
+                font-size: 0.75rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 15px;
+                letter-spacing: 0.04em;
+                text-align: left;
+                width: 60%;
+            }
+        }
+
+        /* Small devices (landscape phones, 576px and up) */
+        @media only screen and (min-width: 576px) and (max-width: 767.98px) {
+            & {
+                width: 60%;
+            }
+        }
+
+        /* // Medium devices (tablets, 768px and up) */
+        @media only screen and (min-width: 768px) and (max-width: 991.98px) {
+            & {
+                width: 60%;
+            }
+        }
+
+        /* Large devices (desktops, 992px and up) */
+        @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+            & {
+                width: 60%;
+            }
+        }
+
+        /* // Extra large devices (large desktops, 1200px and up) */
+        @media only screen and (min-width: 1200px) {
+            & {
+                font-family: "Roboto Mono";
+                font-size: 1.13rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 23px;
+                letter-spacing: 0.04em;
+                text-align: left;
+            }
+        }
     }
 
     & .title {
-        font-family: "Roboto Mono";
-        font-size: 58px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 79px;
-        letter-spacing: -0.07em;
-        text-align: left;
         color: #F4F4F4;
-
         @media only screen and (max-width: 575.98px) {
             & {
-                width: 100%;
-            }
+                font-family: "Roboto Mono";
+                font-size: 2.38rem;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 52px;
+                letter-spacing: -0.07em;
+                text-align: left;            }
         }
 
         /* Small devices (landscape phones, 576px and up) */
@@ -140,8 +207,14 @@
         /* // Extra large devices (large desktops, 1200px and up) */
         @media only screen and (min-width: 1200px) {
             & {
-                width: 70%;
-            }
+                font-family: "Roboto Mono";
+                font-size: 3.63rem;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 79px;
+                letter-spacing: -0.07em;
+                text-align: left;
+                 }
         }
     }
 }
