@@ -1,0 +1,62 @@
+@mixin flex($display-value,$direction-value,$align-value,$justify-value){
+    display: $display-value;
+    flex-direction: $direction-value;
+    align-items: $align-value;
+    justify-content: $justify-value;
+}
+@mixin all-flex($display-value,$direction-value,$align-value,$justify-value,$align-self,$justify-self) {
+    display: $display-value;
+    flex-direction: $direction-value;
+    align-items: $align-value;
+    justify-content: $justify-value;
+    align-self: $align-self;
+    justify-self: $justify-self;
+}
+@mixin grid($display-value,$grid-template-row,$grid-template-column) {
+      display: $display-value;
+      grid-template-rows: $grid-template-row;
+      grid-template-columns: $grid-template-column;
+}
+@mixin font-style($font-family,$font-size,$font-style,$font-weight,$letter-spacing,$text-align,$line-height){
+    font-family: $font-family;
+    font-size:$font-size;
+    font-style: $font-style;
+    font-weight: $font-weight;
+    letter-spacing: $letter-spacing;
+    text-align: $text-align;
+    line-height: $line-height;
+}
+@mixin grid-flex($display-value,$grid-template-row,$grid-template-column,$align,$justify){
+    display: $display-value;
+    grid-template-rows: $grid-template-row;
+    grid-template-columns: $grid-template-column;
+    align-items: $align;
+    justify-content: $justify;
+}
+@mixin all-grid-flex($display-value,$grid-template-row,$grid-template-column,$align,$justify,$align-self,$justify-self){
+    display: $display-value;
+    grid-template-rows: $grid-template-row;
+    grid-template-columns: $grid-template-column;
+    align-items: $align;
+    justify-content: $justify;
+    align-self: $align-self;
+    justify-self: $justify-self;
+}
+@mixin border($value,$color){
+    @if $value == 'light'{
+        border: 1px solid $color;
+    }
+    @else if $value == 'medium'{
+        border: 2px solid $color;
+    }
+    @else {
+        border : 3px solid $color;
+    }
+}
+@mixin fontResize($iterations) { 
+    $i: 1; 
+    @while $i <= $iterations { 
+        @media all and (min-width: 100px * $i) { body { font-size:0.2em * $i; } } 
+        $i: $i + 1; 
+    }
+} 

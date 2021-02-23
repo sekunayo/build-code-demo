@@ -1,0 +1,45 @@
+@import '_reset.scss';
+@import 'first.scss';
+@import 'second.scss';
+@import 'third.scss';
+@import 'fourth.scss';
+@import 'fifth.scss';
+@import 'sixth.scss';
+@import 'seventh.scss';
+.App-container {
+    display: grid;
+}
+@media only screen and (max-width: 575.98px) {
+    .App-container {
+        grid-template-rows: 13vh 150vh 1070vh 200vh;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    .App-container {
+        grid-template-rows: 13vh 150vh 570vh 70vh;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .App-container {
+        grid-template-rows: 13vh 150vh 570vh 70vh;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .App-container {
+        grid-template-rows: 13vh 150vh 570vh 70vh;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .App-container {
+        grid-template-rows: 13vh 110vh 570vh 70vh;
+    }
+}
+

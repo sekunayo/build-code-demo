@@ -1,0 +1,434 @@
+@import '_mixins';
+@import '_variables';
+
+.second-section {
+    background-color: #171717;
+    color: white;
+    display: grid;
+    @media only screen and (max-width: 575.98px) {
+        & {
+            grid-template-rows: 410vh 150vh 250vh 200vh 70vh;
+        }
+    }
+
+    /* Small devices (landscape phones, 576px and up) */
+    @media only screen and (min-width: 576px) and (max-width: 767.98px) {
+        & {
+            grid-template-rows: 220vh 100vh 120vh 100vh 50vh;
+        }
+    }
+
+    /* // Medium devices (tablets, 768px and up) */
+    @media only screen and (min-width: 768px) and (max-width: 991.98px) {
+        & {
+            grid-template-rows: 220vh 100vh 120vh 100vh 50vh;
+        }
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+        & {
+            grid-template-rows: 220vh 100vh 120vh 100vh 50vh;
+        }
+    }
+
+    /* // Extra large devices (large desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+        & {
+            grid-template-rows: 200vh 100vh 120vh 100vh 50vh;
+        }
+    }
+}
+
+.benefits-big-container {
+    @include flex(flex, row, center, center);
+}
+
+.benefits-container {
+    width: 85%;
+
+    @media only screen and (max-width: 575.98px) {
+        & {
+            @include grid-flex(grid, 20vh 40vh 350vh, 1fr, center, center);
+        }
+    }
+
+    /* Small devices (landscape phones, 576px and up) */
+    @media only screen and (min-width: 576px) and (max-width: 767.98px) {
+        & {
+            @include grid-flex(grid, 20vh 20vh 160vh, 1fr, center, center);
+        }
+    }
+
+    /* // Medium devices (tablets, 768px and up) */
+    @media only screen and (min-width: 768px) and (max-width: 991.98px) {
+        & {
+            @include grid-flex(grid, 20vh 20vh 160vh, 1fr, center, center);
+        }
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+        & {
+            @include grid-flex(grid, 20vh 20vh 160vh, 1fr, center, center);
+        }
+    }
+
+    /* // Extra large devices (large desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+        & {
+            @include grid-flex(grid, 20vh 20vh 160vh, 1fr, center, center);
+        }
+    }
+}
+
+.benefit-title {
+    width: 100%;
+    color: #dcdcdc;
+    text-transform: uppercase;
+    @include font-style($Roboto, 1.05rem, null, 500, 0.18em, center, 22.1px);
+
+    @media only screen and (max-width: 575.98px) {
+        & {
+            display: none;
+        }
+    }
+
+    /* Small devices (landscape phones, 576px and up) */
+    @media only screen and (min-width: 576px) and (max-width: 767.98px) {
+        & {
+            display: none;
+        }
+    }
+
+    /* // Medium devices (tablets, 768px and up) */
+    @media only screen and (min-width: 768px) and (max-width: 991.98px) {
+        & {
+            display: none;
+        }
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+        & {
+            display: none;
+        }
+    }
+
+    /* // Extra large devices (large desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+        & {
+            display: block;
+        }
+    }
+}
+
+.companies-container {
+    @media only screen and (max-width: 575.98px) {
+        & {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 20vh 20vh;
+        }
+    }
+
+    /* Small devices (landscape phones, 576px and up) */
+    @media only screen and (min-width: 576px) and (max-width: 767.98px) {
+        & {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 20vh 20vh;
+        }
+    }
+
+    /* // Medium devices (tablets, 768px and up) */
+    @media only screen and (min-width: 768px) and (max-width: 991.98px) {
+        & {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 20vh 20vh;
+        }
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+        & {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 20vh 20vh;
+        }
+    }
+
+    /* // Extra large devices (large desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+        & {
+            @include all-flex(flex, row, center, space-between, flex-start, center);
+            width: 90%;
+        }
+    }
+}
+
+.list {
+    width: 100%;
+
+    @media only screen and (max-width: 575.98px) {
+        & {
+            @include grid(grid, null, 1fr);
+            grid-row-gap: 50px;
+
+        }
+    }
+
+    /* Small devices (landscape phones, 576px and up) */
+    @media only screen and (min-width: 576px) and (max-width: 767.98px) {
+        & {
+            @include grid(grid, null, 1fr 2fr);
+        }
+    }
+
+    /* // Medium devices (tablets, 768px and up) */
+    @media only screen and (min-width: 768px) and (max-width: 991.98px) {
+        & {
+            @include grid(grid, null, 1fr 2fr);
+        }
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+        & {
+            @include grid(grid, null, 1fr 2fr);
+        }
+    }
+
+    /* // Extra large devices (large desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+        & {
+            @include grid(grid, null, 1fr 2fr);
+            grid-column-gap: 100px;
+
+        }
+    }
+}
+
+.benefit-sub-text {
+    text-transform: uppercase;
+    @include font-style($Roboto, 1.13rem, null, 400, 0.04em, left, 23px);
+}
+
+.benefit-sub-text-body {
+    width: 100%;
+    @include font-style($Roboto, 3.31rem, null, 500, -0.01em, left, 70px);
+}
+
+.benefits-list-container {
+    display: flex;
+    align-items: center;
+
+    @media only screen and (max-width: 575.98px) {
+        & {
+            height: 250vh;
+        }
+    }
+
+    /* Small devices (landscape phones, 576px and up) */
+    @media only screen and (min-width: 576px) and (max-width: 767.98px) {
+        & {
+            height: 160vh;
+        }
+    }
+
+    /* // Medium devices (tablets, 768px and up) */
+    @media only screen and (min-width: 768px) and (max-width: 991.98px) {
+        & {
+            height: 160vh;
+        }
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+        & {
+            height: 160vh;
+        }
+    }
+
+    /* // Extra large devices (large desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+        & {
+            height: 160vh;
+        }
+    }
+}
+
+.benefits-inner-list-container {
+    width: 88%;
+
+    @media only screen and (max-width: 575.98px) {
+        & {
+            @include grid-flex(grid, 90vh 90vh 90vh, 80px 1fr, center, null);
+            grid-row-gap: 22vh;
+        }
+    }
+
+    /* Small devices (landscape phones, 576px and up) */
+    @media only screen and (min-width: 576px) and (max-width: 767.98px) {
+        & {
+            display: none;
+        }
+    }
+
+    /* // Medium devices (tablets, 768px and up) */
+    @media only screen and (min-width: 768px) and (max-width: 991.98px) {
+        & {
+            display: none;
+        }
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+        & {
+            display: none;
+        }
+    }
+
+    /* // Extra large devices (large desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+        & {
+            @include grid-flex(grid, 33vh 33vh 33vh, 80px 1fr, center, null);
+            grid-row-gap: 22vh;
+        }
+    }
+
+}
+
+.list-1,
+.list-3 {
+    grid-column: 1/span 2;
+}
+
+.list-2 {
+    grid-column: 2/span 2;
+}
+
+.benefit-mobile-device-title {
+    width: 100%;
+    color: #dcdcdc;
+    text-transform: uppercase;
+    @include font-style($Roboto, 0.83rem, null, 500, 0.18em, center, 22.1px);
+
+    @media only screen and (max-width: 575.98px) {
+        & {
+            display: block;
+        }
+    }
+
+    /* Small devices (landscape phones, 576px and up) */
+    @media only screen and (min-width: 576px) and (max-width: 767.98px) {
+        & {
+            display: block;
+        }
+    }
+
+    /* // Medium devices (tablets, 768px and up) */
+    @media only screen and (min-width: 768px) and (max-width: 991.98px) {
+        & {
+            display: block;
+        }
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+        & {
+            display: block;
+        }
+    }
+
+    /* // Extra large devices (large desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+        & {
+            display: none;
+        }
+    }
+}
+
+.benefit-box {
+    @media only screen and (max-width: 575.98px) {
+        & {
+            grid-row: 2/2;
+            grid-column: 1/1;
+        }
+    }
+
+    /* Small devices (landscape phones, 576px and up) */
+    @media only screen and (min-width: 576px) and (max-width: 767.98px) {
+        & {
+            grid-row: 2/2;
+            grid-column: 1/1;
+        }
+    }
+
+    /* // Medium devices (tablets, 768px and up) */
+    @media only screen and (min-width: 768px) and (max-width: 991.98px) {
+        & {
+            grid-row: 2/2;
+            grid-column: 1/1;
+        }
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+        & {
+            grid-row: 2/2;
+            grid-column: 1/1;
+        }
+    }
+
+    /* // Extra large devices (large desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+        & {
+            grid-row: 1/1;
+            grid-column: 1/1;        }
+    }
+}
+
+.benefit-body {
+    grid-row: 1/2;
+    grid-column: 1/1;
+
+    @media only screen and (max-width: 575.98px) {
+        & {
+            grid-row: 1/2;
+            grid-column: 1/1;
+        }
+    }
+
+    /* Small devices (landscape phones, 576px and up) */
+    @media only screen and (min-width: 576px) and (max-width: 767.98px) {
+        & {
+            grid-row: 1/2;
+            grid-column: 1/1;
+        }
+    }
+
+    /* // Medium devices (tablets, 768px and up) */
+    @media only screen and (min-width: 768px) and (max-width: 991.98px) {
+        & {
+            grid-row: 1/2;
+            grid-column: 1/1;
+        }
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+        & {
+            grid-row: 1/2;
+            grid-column: 1/1;
+        }
+    }
+
+    /* // Extra large devices (large desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+        & {
+            grid-row: 1/1;
+            grid-column: 2/2;        }
+    }
+}

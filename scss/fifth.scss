@@ -1,0 +1,258 @@
+@import '_mixins';
+@import '_variables';
+
+.talent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.talent-inner-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+
+    @media only screen and (max-width: 575.98px) {
+        & {
+            grid-template-rows: 5vh 70vh 80vh;
+        }
+    }
+
+    /* Small devices (landscape phones, 576px and up) */
+    @media only screen and (min-width: 576px) and (max-width: 767.98px) {
+        & {
+            grid-template-rows: 5vh 37vh 21vh;
+        }
+    }
+
+    /* // Medium devices (tablets, 768px and up) */
+    @media only screen and (min-width: 768px) and (max-width: 991.98px) {
+        & {
+            grid-template-rows: 5vh 37vh 21vh;
+        }
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+        & {
+            grid-template-rows: 5vh 37vh 21vh;
+        }
+    }
+
+    /* // Extra large devices (large desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+        & {
+            grid-template-rows: 5vh 37vh 21vh;
+        }
+    }
+}
+
+.talent-text-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & p {
+        font-family: "Roboto Mono";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0.04em;
+        text-align: center;
+        text-transform: uppercase;
+
+        @media only screen and (max-width: 575.98px) {
+            & {
+                font-size: 0.74rem;
+            }
+        }
+
+        /* Small devices (landscape phones, 576px and up) */
+        @media only screen and (min-width: 576px) and (max-width: 767.98px) {
+            & {
+                font-size: 0.74rem;
+            }
+        }
+
+        /* // Medium devices (tablets, 768px and up) */
+        @media only screen and (min-width: 768px) and (max-width: 991.98px) {
+            & {
+                font-size: 1.125rem;
+            }
+        }
+
+        /* Large devices (desktops, 992px and up) */
+        @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+            & {
+                font-size: 1.125rem;
+            }
+        }
+
+        /* // Extra large devices (large desktops, 1200px and up) */
+        @media only screen and (min-width: 1200px) {
+            & {
+                font-size: 1.125rem;
+            }
+        }
+    }
+}
+
+.talent-text-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & p {
+        font-family: "Roboto Mono";
+        font-style: normal;
+        font-weight: 500;
+        line-height: 103px;
+        letter-spacing: -0.07em;
+        text-align: center;
+
+        @media only screen and (max-width: 575.98px) {
+            & {
+                font-size: 3.11rem;
+                width: 100%;
+            }
+        }
+
+        /* Small devices (landscape phones, 576px and up) */
+        @media only screen and (min-width: 576px) and (max-width: 767.98px) {
+            & {
+                font-size: 4.69rem;
+            }
+        }
+
+        /* // Medium devices (tablets, 768px and up) */
+        @media only screen and (min-width: 768px) and (max-width: 991.98px) {
+            & {
+                font-size: 4.69rem;
+            }
+        }
+
+        /* Large devices (desktops, 992px and up) */
+        @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+            & {
+                font-size: 4.69rem;
+            }
+        }
+
+        /* // Extra large devices (large desktops, 1200px and up) */
+        @media only screen and (min-width: 1200px) {
+            & {
+                font-size: 4.69rem;
+                width: 85%;
+            }
+        }
+    }
+
+}
+
+.talent-text-3 {
+    justify-content: center;
+    align-items: center;
+
+    @media only screen and (max-width: 575.98px) {
+        & {
+            display: none;
+        }
+    }
+
+    /* Small devices (landscape phones, 576px and up) */
+    @media only screen and (min-width: 576px) and (max-width: 767.98px) {
+        & {
+            display: none;
+        }
+    }
+
+    /* // Medium devices (tablets, 768px and up) */
+    @media only screen and (min-width: 768px) and (max-width: 991.98px) {
+        & {
+            display: none;
+        }
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+        & {
+            display: none;
+        }
+    }
+
+    /* // Extra large devices (large desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+        & {
+            display: flex;
+        }
+    }
+
+    & p {
+        font-family: "Roboto Mono";
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2.56rem;
+        letter-spacing: 0.04em;
+        text-align: center;
+        width: 55%;
+
+
+    }
+}
+
+.talent-text-mobile-3 {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 70vh;
+    @media only screen and (max-width: 575.98px) {
+        & {
+            display: flex;
+        }
+    }
+
+    /* Small devices (landscape phones, 576px and up) */
+    @media only screen and (min-width: 576px) and (max-width: 767.98px) {
+        & {
+            display: flex;
+        }
+    }
+
+    /* // Medium devices (tablets, 768px and up) */
+    @media only screen and (min-width: 768px) and (max-width: 991.98px) {
+        & {
+            display: none;
+        }
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+        & {
+            display: none;
+        }
+    }
+
+    /* // Extra large devices (large desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+        & {
+            display: none;
+        }
+    }
+    & p {
+        text-align: center;
+        font-family: "Roboto Mono";
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0.04em;
+        text-align: center;
+        color: #E9E9E9;
+        width: 70%;
+
+    }
+}
