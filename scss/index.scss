@@ -6,9 +6,11 @@
 @import 'fifth.scss';
 @import 'sixth.scss';
 @import 'seventh.scss';
+
 .App-container {
     display: grid;
 }
+
 @media only screen and (max-width: 575.98px) {
     .App-container {
         grid-template-rows: 13vh 150vh 850vh 220vh;
@@ -25,14 +27,14 @@
 /* // Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
     .App-container {
-        grid-template-rows: 13vh 150vh 570vh 70vh;
+        grid-template-rows: 13vh 110vh 570vh 70vh;
     }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
     .App-container {
-        grid-template-rows: 13vh 150vh 570vh 70vh;
+        grid-template-rows: 13vh 80vh 570vh 70vh;
     }
 }
 
@@ -42,4 +44,3 @@
         grid-template-rows: 13vh 110vh 570vh 70vh;
     }
 }
-
