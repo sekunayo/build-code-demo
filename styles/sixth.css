@@ -98,15 +98,16 @@
 
 .book-meeting-text p {
   font-family: "Roboto Mono";
-  font-size: 3.63rem;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 79px;
-  letter-spacing: -0.07em;
+  color: #F4F4F4;
 }
 
 @media only screen and (max-width: 575.98px) {
   .book-meeting-text {
+    font-size: 3.13rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 68px;
+    letter-spacing: -0.07em;
     text-align: center;
   }
 }
@@ -133,25 +134,108 @@
 @media only screen and (min-width: 1200px) {
   .book-meeting-text {
     text-align: left;
+    font-size: 3.63rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 79px;
+    letter-spacing: -0.07em;
   }
 }
 
 .book-meeting-button {
   display: flex;
-  width: 364px;
-  height: 81px;
+  /* Small devices (landscape phones, 576px and up) */
+  /* // Medium devices (tablets, 768px and up) */
+  /* Large devices (desktops, 992px and up) */
+  /* // Extra large devices (large desktops, 1200px and up) */
+}
+
+@media only screen and (max-width: 575.98px) {
+  .book-meeting-button {
+    width: 252px;
+    height: 56px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .book-meeting-button {
+    width: 364px;
+    height: 81px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .book-meeting-button {
+    width: 364px;
+    height: 81px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .book-meeting-button {
+    width: 364px;
+    height: 81px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .book-meeting-button {
+    width: 364px;
+    height: 81px;
+  }
 }
 
 .book-meeting-button button {
   width: 100%;
-  height: 81px;
-  border-radius: 8px;
   border: 3px solid #dddddd;
   font-family: "Roboto Mono";
-  font-size: 1.25rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 28px;
-  letter-spacing: -0.03em;
-  text-align: center;
+  /* Small devices (landscape phones, 576px and up) */
+  /* // Medium devices (tablets, 768px and up) */
+  /* Large devices (desktops, 992px and up) */
+  /* // Extra large devices (large desktops, 1200px and up) */
+}
+
+@media only screen and (max-width: 575.98px) {
+  .book-meeting-button button {
+    height: 56px;
+    border-radius: 6px;
+    font-size: 0.94rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.06em;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .book-meeting-button button {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .book-meeting-button button {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .book-meeting-button button {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .book-meeting-button button {
+    height: 81px;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.03em;
+    text-align: center;
+  }
 }

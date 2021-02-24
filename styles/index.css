@@ -795,7 +795,7 @@ button, .nav-link-container button {
 
 @media only screen and (max-width: 575.98px) {
   .second-section {
-    grid-template-rows: 290vh 150vh 200vh 200vh 70vh;
+    grid-template-rows: 290vh 150vh 170vh 160vh 70vh;
   }
 }
 
@@ -1929,6 +1929,7 @@ button, .nav-link-container button {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  padding-right: 10px;
 }
 
 .service-text p {
@@ -1953,7 +1954,7 @@ button, .nav-link-container button {
 
 @media only screen and (max-width: 575.98px) {
   .service-list-1 {
-    width: 200px;
+    width: 230px;
   }
 }
 
@@ -2187,7 +2188,7 @@ button, .nav-link-container button {
 
 @media only screen and (max-width: 575.98px) {
   .stack-inner-container {
-    grid-template-rows: 32vh 150vh;
+    grid-template-rows: 32vh 100vh;
   }
 }
 
@@ -2376,7 +2377,7 @@ button, .nav-link-container button {
   .stack-list-container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(7, 20vh);
+    grid-template-rows: repeat(7, 15vh);
     grid-row-gap: 10px;
   }
 }
@@ -2428,7 +2429,7 @@ button, .nav-link-container button {
 
 @media only screen and (max-width: 575.98px) {
   .stack-list {
-    height: 113px;
+    height: 69px;
     border-radius: 13px;
   }
 }
@@ -2504,7 +2505,7 @@ button, .nav-link-container button {
 
 @media only screen and (max-width: 575.98px) {
   .stack-text-button button {
-    height: 113px;
+    height: 69px;
     border-radius: 13px;
   }
 }
@@ -2547,10 +2548,8 @@ button, .nav-link-container button {
 .talent-inner-container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-row-gap: 40px;
   justify-content: center;
   align-items: center;
-  width: 70%;
   /* Small devices (landscape phones, 576px and up) */
   /* // Medium devices (tablets, 768px and up) */
   /* Large devices (desktops, 992px and up) */
@@ -2559,7 +2558,9 @@ button, .nav-link-container button {
 
 @media only screen and (max-width: 575.98px) {
   .talent-inner-container {
-    grid-template-rows: 5vh 70vh 80vh;
+    grid-template-rows: 5vh 60vh 90vh;
+    width: 85%;
+    grid-row-gap: 20px;
   }
 }
 
@@ -2584,6 +2585,8 @@ button, .nav-link-container button {
 @media only screen and (min-width: 1200px) {
   .talent-inner-container {
     grid-template-rows: 5vh 37vh 21vh;
+    width: 70%;
+    grid-row-gap: 40px;
   }
 }
 
@@ -2647,7 +2650,6 @@ button, .nav-link-container button {
   font-family: "Roboto Mono";
   font-style: normal;
   font-weight: 500;
-  line-height: 103px;
   letter-spacing: -0.07em;
   text-align: center;
   /* Small devices (landscape phones, 576px and up) */
@@ -2658,8 +2660,9 @@ button, .nav-link-container button {
 
 @media only screen and (max-width: 575.98px) {
   .talent-text-2 p {
-    font-size: 3.11rem;
+    font-size: 3.13rem;
     width: 100%;
+    line-height: 68px;
   }
 }
 
@@ -2685,6 +2688,7 @@ button, .nav-link-container button {
   .talent-text-2 p {
     font-size: 4.69rem;
     width: 85%;
+    line-height: 103px;
   }
 }
 
@@ -2742,7 +2746,7 @@ button, .nav-link-container button {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 70vh;
+  height: 80vh;
   /* Small devices (landscape phones, 576px and up) */
   /* // Medium devices (tablets, 768px and up) */
   /* Large devices (desktops, 992px and up) */
@@ -2892,15 +2896,16 @@ button, .nav-link-container button {
 
 .book-meeting-text p {
   font-family: "Roboto Mono";
-  font-size: 3.63rem;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 79px;
-  letter-spacing: -0.07em;
+  color: #F4F4F4;
 }
 
 @media only screen and (max-width: 575.98px) {
   .book-meeting-text {
+    font-size: 3.13rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 68px;
+    letter-spacing: -0.07em;
     text-align: center;
   }
 }
@@ -2927,27 +2932,110 @@ button, .nav-link-container button {
 @media only screen and (min-width: 1200px) {
   .book-meeting-text {
     text-align: left;
+    font-size: 3.63rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 79px;
+    letter-spacing: -0.07em;
   }
 }
 
 .book-meeting-button {
   display: flex;
-  width: 364px;
-  height: 81px;
+  /* Small devices (landscape phones, 576px and up) */
+  /* // Medium devices (tablets, 768px and up) */
+  /* Large devices (desktops, 992px and up) */
+  /* // Extra large devices (large desktops, 1200px and up) */
+}
+
+@media only screen and (max-width: 575.98px) {
+  .book-meeting-button {
+    width: 252px;
+    height: 56px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .book-meeting-button {
+    width: 364px;
+    height: 81px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .book-meeting-button {
+    width: 364px;
+    height: 81px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .book-meeting-button {
+    width: 364px;
+    height: 81px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .book-meeting-button {
+    width: 364px;
+    height: 81px;
+  }
 }
 
 .book-meeting-button button {
   width: 100%;
-  height: 81px;
-  border-radius: 8px;
   border: 3px solid #dddddd;
   font-family: "Roboto Mono";
-  font-size: 1.25rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 28px;
-  letter-spacing: -0.03em;
-  text-align: center;
+  /* Small devices (landscape phones, 576px and up) */
+  /* // Medium devices (tablets, 768px and up) */
+  /* Large devices (desktops, 992px and up) */
+  /* // Extra large devices (large desktops, 1200px and up) */
+}
+
+@media only screen and (max-width: 575.98px) {
+  .book-meeting-button button {
+    height: 56px;
+    border-radius: 6px;
+    font-size: 0.94rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.06em;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .book-meeting-button button {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .book-meeting-button button {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .book-meeting-button button {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .book-meeting-button button {
+    height: 81px;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.03em;
+    text-align: center;
+  }
 }
 
 .footer-inner-container {
@@ -3130,7 +3218,7 @@ footer {
 
 @media only screen and (max-width: 575.98px) {
   .App-container {
-    grid-template-rows: 13vh 150vh 1070vh 200vh;
+    grid-template-rows: 13vh 150vh 850vh 200vh;
   }
 }
 

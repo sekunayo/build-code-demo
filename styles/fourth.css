@@ -50,7 +50,7 @@
 
 @media only screen and (max-width: 575.98px) {
   .stack-inner-container {
-    grid-template-rows: 32vh 150vh;
+    grid-template-rows: 32vh 100vh;
   }
 }
 
@@ -239,7 +239,7 @@
   .stack-list-container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(7, 20vh);
+    grid-template-rows: repeat(7, 15vh);
     grid-row-gap: 10px;
   }
 }
@@ -291,7 +291,7 @@
 
 @media only screen and (max-width: 575.98px) {
   .stack-list {
-    height: 113px;
+    height: 69px;
     border-radius: 13px;
   }
 }
@@ -367,7 +367,7 @@
 
 @media only screen and (max-width: 575.98px) {
   .stack-text-button button {
-    height: 113px;
+    height: 69px;
     border-radius: 13px;
   }
 }

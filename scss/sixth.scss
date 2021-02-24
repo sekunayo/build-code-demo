@@ -4,15 +4,16 @@
 .book-meeting-container {
     justify-self: center;
     align-self: center;
-    width: 80%;   
+    width: 80%;
+
     @media only screen and (max-width: 575.98px) {
         & {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             height: 40vh;
-            align-items: center;     
-         }
+            align-items: center;
+        }
     }
 
     /* Small devices (landscape phones, 576px and up) */
@@ -20,8 +21,8 @@
         & {
             display: flex;
             justify-content: space-between;
-            align-items: center;       
-         }
+            align-items: center;
+        }
     }
 
     /* // Medium devices (tablets, 768px and up) */
@@ -29,8 +30,8 @@
         & {
             display: flex;
             justify-content: space-between;
-            align-items: center;       
-         }
+            align-items: center;
+        }
     }
 
     /* Large devices (desktops, 992px and up) */
@@ -38,8 +39,8 @@
         & {
             display: flex;
             justify-content: space-between;
-            align-items: center;       
-         }
+            align-items: center;
+        }
     }
 
     /* // Extra large devices (large desktops, 1200px and up) */
@@ -47,110 +48,198 @@
         & {
             display: flex;
             justify-content: space-between;
-            align-items: center;    
-         }
+            align-items: center;
+        }
     }
 }
 
 .book-meeting-text {
     display: flex;
+
     @media only screen and (max-width: 575.98px) {
         & {
             justify-content: center;
-            align-items: center;     
-         }
+            align-items: center;
+        }
     }
 
     /* Small devices (landscape phones, 576px and up) */
     @media only screen and (min-width: 576px) and (max-width: 767.98px) {
         & {
             justify-content: center;
-            align-items: center;     
-         }
+            align-items: center;
+        }
     }
 
     /* // Medium devices (tablets, 768px and up) */
     @media only screen and (min-width: 768px) and (max-width: 991.98px) {
         & {
             justify-content: center;
-            align-items: center;     
-         }
+            align-items: center;
+        }
     }
 
     /* Large devices (desktops, 992px and up) */
     @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
         & {
             justify-content: center;
-            align-items: center;     
-         }
+            align-items: center;
+        }
     }
 
     /* // Extra large devices (large desktops, 1200px and up) */
     @media only screen and (min-width: 1200px) {
         & {
-            align-items: center;     
-         }
+            align-items: center;
+        }
     }
+
     & p {
         font-family: "Roboto Mono";
-        font-size: 3.63rem;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 79px;
-        letter-spacing: -0.07em;
+        color: #F4F4F4;
     }
+
     @media only screen and (max-width: 575.98px) {
         & {
+            font-size: 3.13rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 68px;
+            letter-spacing: -0.07em;
             text-align: center;
-         }
+        }
     }
 
     /* Small devices (landscape phones, 576px and up) */
     @media only screen and (min-width: 576px) and (max-width: 767.98px) {
         & {
-            text-align: center;    
-         }
+            text-align: center;
+        }
     }
 
     /* // Medium devices (tablets, 768px and up) */
     @media only screen and (min-width: 768px) and (max-width: 991.98px) {
         & {
             justify-content: center;
-            align-items: center;     
-         }
+            align-items: center;
+        }
     }
 
     /* Large devices (desktops, 992px and up) */
     @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
         & {
-          text-align: center; 
-         }
+            text-align: center;
+        }
     }
 
     /* // Extra large devices (large desktops, 1200px and up) */
     @media only screen and (min-width: 1200px) {
         & {
             text-align: left;
-         }
+            font-size: 3.63rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 79px;
+            letter-spacing: -0.07em;
+        }
     }
 }
 
 .book-meeting-button {
     display: flex;
-    width: 364px;
-    height: 81px;
+
+    @media only screen and (max-width: 575.98px) {
+        & {
+            width: 252px;
+            height: 56px;
+        }
+    }
+
+    /* Small devices (landscape phones, 576px and up) */
+    @media only screen and (min-width: 576px) and (max-width: 767.98px) {
+        & {
+            width: 364px;
+            height: 81px;
+        }
+    }
+
+    /* // Medium devices (tablets, 768px and up) */
+    @media only screen and (min-width: 768px) and (max-width: 991.98px) {
+        & {
+            width: 364px;
+            height: 81px;
+        }
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+        & {
+            width: 364px;
+            height: 81px;
+        }
+    }
+
+    /* // Extra large devices (large desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+        & {
+            width: 364px;
+            height: 81px;
+        }
+    }
+
     & button {
         width: 100%;
-        height: 81px;
-        border-radius: 8px;
         border: 3px solid #dddddd;
         font-family: "Roboto Mono";
-        font-size: 1.25rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 28px;
-        letter-spacing: -0.03em;
-        text-align: center;
+
+        @media only screen and (max-width: 575.98px) {
+            & {
+                height: 56px;
+                border-radius: 6px;
+                font-size: 0.94rem;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 21px;
+                letter-spacing: 0.06em;
+                text-align: center;
+            }
+        }
+
+        /* Small devices (landscape phones, 576px and up) */
+        @media only screen and (min-width: 576px) and (max-width: 767.98px) {
+            & {
+                text-align: center;
+            }
+        }
+
+        /* // Medium devices (tablets, 768px and up) */
+        @media only screen and (min-width: 768px) and (max-width: 991.98px) {
+            & {
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        /* Large devices (desktops, 992px and up) */
+        @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+            & {
+                text-align: center;
+            }
+        }
+
+        /* // Extra large devices (large desktops, 1200px and up) */
+        @media only screen and (min-width: 1200px) {
+            & {
+                height: 81px;
+                border-radius: 8px;
+                font-size: 1.25rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 28px;
+                letter-spacing: -0.03em;
+                text-align: center;
+            }
+        }
 
     }
 }
