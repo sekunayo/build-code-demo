@@ -29,7 +29,7 @@
 
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
   .services-container {
-    width: 84%;
+    width: 75%;
   }
 }
 
@@ -57,13 +57,13 @@
 
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
   .services-inner-container {
-    grid-template-rows: 30vh 50vh;
+    grid-template-rows: 32vh 100vh;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .services-inner-container {
-    grid-template-rows: 30vh 50vh;
+    grid-template-rows: 32vh 100vh;
   }
 }
 
@@ -96,14 +96,14 @@
 
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
   .services-heading {
-    grid-template-rows: 3vh 24vh;
+    grid-template-rows: 8vh 18vh;
     width: 100%;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .services-heading {
-    grid-template-rows: 3vh 24vh;
+    grid-template-rows: 8vh 18vh;
     width: 100%;
   }
 }
@@ -146,19 +146,39 @@
 
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
   .services-heading .sub-title {
+    font-family: "Roboto Mono";
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.04em;
+    text-align: left;
     width: 60%;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .services-heading .sub-title {
+    font-family: "Roboto Mono";
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.04em;
+    text-align: left;
     width: 60%;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
   .services-heading .sub-title {
-    width: 60%;
+    font-family: "Roboto Mono";
+    font-size: 1.13rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.04em;
+    text-align: left;
   }
 }
 
@@ -196,19 +216,38 @@
 
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
   .services-heading .title {
-    width: 60%;
+    font-family: "Roboto Mono";
+    font-size: 2.38rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: -0.07em;
+    text-align: left;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .services-heading .title {
-    width: 60%;
+    font-family: "Roboto Mono";
+    font-size: 2.38rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: -0.07em;
+    text-align: left;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
   .services-heading .title {
-    width: 60%;
+    font-family: "Roboto Mono";
+    font-size: 3.63rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 79px;
+    letter-spacing: -0.07em;
+    text-align: left;
+    color: #F4F4F4;
   }
 }
 
@@ -260,8 +299,9 @@
 
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
   .services-list-container {
-    display: grid;
-    grid-template-columns: minmax(180px, 300px);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
   }
 }
 
@@ -295,22 +335,25 @@
 
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
   .service-list, .service-list-1, .service-list-2, .service-list-3, .service-list-4, .service-list-5 {
-    height: 123px;
+    height: 83px;
     border-radius: 14px;
+    grid-column-gap: 5px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .service-list, .service-list-1, .service-list-2, .service-list-3, .service-list-4, .service-list-5 {
-    height: 123px;
+    height: 83px;
     border-radius: 14px;
+    grid-column-gap: 5px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
   .service-list, .service-list-1, .service-list-2, .service-list-3, .service-list-4, .service-list-5 {
     height: 123px;
-    border-radius: 14px;
+    border-radius: 26px;
+    grid-column-gap: 10px;
   }
 }
 
@@ -357,19 +400,19 @@
 
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
   .service-list-1 {
-    width: 180px;
+    width: 230px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .service-list-1 {
-    width: 180px;
+    width: 230px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
   .service-list-1 {
-    width: 180px;
+    width: 388.5px;
   }
 }
 
@@ -394,19 +437,19 @@
 
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
   .service-list-2 {
-    width: 180px;
+    width: 280px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .service-list-2 {
-    width: 180px;
+    width: 280px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
   .service-list-2 {
-    width: 180px;
+    width: 521px;
   }
 }
 
@@ -431,19 +474,19 @@
 
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
   .service-list-3 {
-    width: 180px;
+    width: 295px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .service-list-3 {
-    width: 180px;
+    width: 295px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
   .service-list-3 {
-    width: 180px;
+    width: 551px;
   }
 }
 
@@ -468,19 +511,19 @@
 
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
   .service-list-4 {
-    width: 180px;
+    width: 210px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .service-list-4 {
-    width: 180px;
+    width: 210px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
   .service-list-4 {
-    width: 180px;
+    width: 405px;
   }
 }
 
@@ -505,19 +548,19 @@
 
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
   .service-list-5 {
-    width: 180px;
+    width: 300px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .service-list-5 {
-    width: 180px;
+    width: 300px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
   .service-list-5 {
-    width: 180px;
+    width: 625px;
   }
 }
 
