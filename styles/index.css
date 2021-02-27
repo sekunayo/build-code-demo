@@ -1793,7 +1793,7 @@ button, .nav-link-container button {
 
 @media only screen and (min-width: 1200px) {
   .services-container {
-    width: 75%;
+    width: 80%;
   }
 }
 
@@ -1833,7 +1833,7 @@ button, .nav-link-container button {
 
 @media only screen and (min-width: 1200px) {
   .services-inner-container {
-    grid-template-rows: 30vh 50vh;
+    grid-template-rows: 30vh 55vh;
   }
 }
 
@@ -2067,7 +2067,7 @@ button, .nav-link-container button {
   .services-list-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 40px;
   }
 }
 
@@ -2371,7 +2371,7 @@ button, .nav-link-container button {
 
 @media only screen and (min-width: 1200px) {
   .stack-container {
-    width: 75%;
+    width: 80%;
   }
 }
 
@@ -2410,7 +2410,7 @@ button, .nav-link-container button {
 
 @media only screen and (min-width: 1200px) {
   .stack-inner-container {
-    grid-template-rows: 30vh 35vh;
+    grid-template-rows: 30vh 55vh;
   }
 }
 
@@ -2608,7 +2608,7 @@ button, .nav-link-container button {
   .stack-list-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 40px;
   }
 }
 
